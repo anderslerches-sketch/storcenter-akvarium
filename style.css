@@ -1,11 +1,19 @@
-style.css
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-/* Animerede baggrund */
+/* Hele akvariet */
+#scene {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* Den animerede baggrund */
 .bg {
     position: absolute;
     inset: 0;
@@ -19,20 +27,17 @@ box-sizing: border-box;
     pointer-events: none;
 }
 
-/* Hele akvariet */
-#scene {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    overflow: hidden;
+/* Individuel placering og svømmehastighed af fisk */
+.fisk4 {
+ top: 60%;
+ left: 65%; 
+ position: absolute;
+ width: 12%;
+ height: auto;
+ z-index: 1;
 }
 
-.fisk4 {
- bottom: 5vh;
- right: -30vw;
- width: 20%;
- animation: 20s linear infinite;  
-}
+
 
 
 
