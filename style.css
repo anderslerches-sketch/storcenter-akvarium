@@ -13,10 +13,15 @@ box-sizing: border-box;
  height: 280px;
  background-size: 100vw auto;
  background: url(img/Baggrund\ m.\ animation\ i\ lys.svg);
- 
+
 }
 
-
+.fisk4 {
+ bottom: 5vh;
+ right: -30vw;
+ width: 20%;
+ animation: 20s linear infinite;   
+}
 
 
 
