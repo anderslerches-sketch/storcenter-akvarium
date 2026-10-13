@@ -1,0 +1,97 @@
+<svg width="121" height="45" viewBox="0 0 121 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg { overflow: visible; }
+@keyframes kf_Vector_413_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(54px) translateY(32px) translate(13px, 6px) scaleX(1) scaleY(1) translate(-13px, -6px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(54px) translateY(32px) translate(13px, 6px) scaleX(1) scaleY(0.85) translate(-13px, -6px);
+  }
+  100% {
+    transform: translateX(54px) translateY(32px) translate(13px, 6px) scaleX(1) scaleY(1) translate(-13px, -6px);
+  }
+}
+#Vector_413 {
+  transform-origin: 0 0;
+  animation: kf_Vector_413_transform_0 2s linear infinite;
+}
+@keyframes kf_Vector_414_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(35px) translateY(10px) translate(23px, 4.5px) scaleX(1) scaleY(1) translate(-23px, -4.5px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(35px) translateY(10px) translate(23px, 4.5px) scaleX(0.85) scaleY(1) translate(-23px, -4.5px);
+  }
+  100% {
+    transform: translateX(35px) translateY(10px) translate(23px, 4.5px) scaleX(1) scaleY(1) translate(-23px, -4.5px);
+  }
+}
+#Vector_414 {
+  transform-origin: 0 0;
+  animation: kf_Vector_414_transform_0 2s linear infinite;
+}
+@keyframes kf_h__jre___je_transform_0 {
+  0% {
+    transform: translateX(12.045px) translateY(24.352px) translate(-3.243px, 4.758px) scaleX(1) scaleY(1) translate(3.243px, -4.758px) rotate(3.067rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  32.65% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(12.045px) translateY(24.352px) translate(-3.243px, 4.758px) scaleX(1) scaleY(1) translate(3.243px, -4.758px) rotate(3.067rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  39.3% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(12.045px) translateY(24.352px) translate(-3.243px, 4.758px) scaleX(1) scaleY(0) translate(3.243px, -4.758px) rotate(3.067rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  44.75% {
+    transform: translateX(12.045px) translateY(24.352px) translate(-3.243px, 4.758px) scaleX(1) scaleY(1) translate(3.243px, -4.758px) rotate(3.067rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  100% {
+    transform: translateX(12.045px) translateY(24.352px) translate(-3.243px, 4.758px) scaleX(1) scaleY(1) translate(3.243px, -4.758px) rotate(3.067rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+}
+#h__jre___je {
+  transform-origin: 0 0;
+  animation: kf_h__jre___je_transform_0 2s linear infinite;
+}
+</style>
+<g id="orange_lille_fisk">
+<path id="Vector_411" d="M120 42.3988C89.8895 37.7664 88.5233 28.1279 110.186 0C94.696 16.7914 81.6164 20.4473 69.5911 19.723C56.1151 18.9114 43.9632 12.5991 31.2268 13.1074C21.45 13.4976 11.3288 17.9069 0 31.9084V35.4052C16.5376 45.3836 50.855 43.273 53.9777 41.5246C59.4 35.7056 64.641 32.9673 69.5911 32.3455C81.7453 30.8187 94.3891 41.0422 120 42.3988Z" fill="url(#paint0_linear_185_8588)" stroke="black"/>
+<path id="Vector_412" transform="translate(24 31)" d="M0 1.44982C8.96968 -0.281139 13.7473 -0.323522 22 0.595427C18.7538 4.8343 14.0584 5.11018 0 1.44982Z" fill="#ED9C9A" stroke="black"/>
+<path id="Vector_413" transform="translate(54 32)" d="M26 9.6621C14.6785 13.047 9.09071 12.6311 0 9.22291C4.99227 3.83381 8.18565 1.63294 14.9831 0C21.9275 1.71594 24.4009 3.78383 26 9.6621Z" fill="url(#paint1_linear_185_8588)" stroke="black"/>
+<path id="Vector_414" transform="translate(35 10)" d="M46 4.50223C28.4165 -1.18953 18.6453 -1.13827 0 2.71842C11.5988 4.09242 33.2126 9.95568 36.635 8.86574C40.0574 7.77579 45.1801 6.74155 46 4.50223Z" fill="url(#paint2_linear_185_8588)" stroke="black"/>
+<g id="h__jre___je" transform="matrix(-0.997196 0.0748393 0.0788022 0.99689 12.0454 24.3521)">
+<path id="Ellipse_5014" transform="matrix(0.919197 0.393798 -0.316703 0.948525 2.30373 -3.04348e-05)" d="M2.67188 0.25C3.31089 0.250064 3.91053 0.601992 4.35938 1.21289C4.80813 1.8238 5.09367 2.68018 5.09375 3.63672C5.09375 4.59329 4.80809 5.44957 4.35938 6.06055C3.91051 6.67161 3.31099 7.02435 2.67188 7.02441C2.0327 7.02441 1.43328 6.67166 0.984375 6.06055C0.535588 5.44956 0.25 4.59338 0.25 3.63672C0.250076 2.68018 0.535621 1.8238 0.984375 1.21289C1.43325 0.602039 2.03285 0.25 2.67188 0.25Z" fill="white" stroke="black" stroke-width="0.5"/>
+<ellipse id="Ellipse_5015" transform="matrix(0.915097 0.403235 -0.324803 0.945782 3.21084 2.14168)" cx="1.73093" cy="2.71932" rx="1.73093" ry="2.71932" fill="black"/>
+<ellipse id="Ellipse_5016" transform="matrix(0.981335 0.192308 -0.150978 0.988537 3.9314 3.23657)" cx="0.68372" cy="0.882795" rx="0.68372" ry="0.882795" fill="#FFFFFE"/>
+<ellipse id="Ellipse_5017" transform="matrix(0.981335 0.192308 -0.150978 0.988537 3.43945 6.30452)" cx="0.138197" cy="0.146059" rx="0.138197" ry="0.146059" fill="#FFFFFE"/>
+</g>
+<g id="mund" transform="matrix(0.991194 -0.132416 0.139337 0.990245 4.85034 31.8511)">
+<g id="Vector_274">
+<path d="M9.79052 1.54263L9.6213 1.74522C9.308 9.00318 3.12982 7.41381 0.874663 2.03609C4.25571 3.09637 7.73195 3.10684 9.79052 1.54263L11.0791 0C10.7623 0.626071 10.324 1.13724 9.79052 1.54263Z" id="Vector_274_bg_0" fill="#FBB1B1">
+</path>
+<path d="M1.74933 0.872612L0 2.61784L0.874663 2.03609M0.874663 2.03609C5.13197 3.37116 9.54022 3.04175 11.0791 0L9.6213 1.74522C9.308 9.00318 3.12982 7.41381 0.874663 2.03609Z" stroke="black" stroke-width="0.5"/>
+</g>
+<path id="Vector_277" transform="translate(3.69293 5.16588)" d="M2.21581 5.60651e-05C1.36408 -0.00525748 0 0.369026 0 0.369026C2.24094 2.32862 4.41804 1.09837 4.43163 0.369026C4.42078 0.258823 3.06755 0.00536961 2.21581 5.60651e-05Z" fill="#EC7274" stroke="black" stroke-width="0.1"/>
+</g>
+<path id="Vector_416" transform="matrix(-0.934136 -0.356917 -0.327585 0.944822 15.6799 26.4966)" d="M1.98115 0.527624C6.33945 -0.799883 6.99981 0.792225 6.43344 0.824192C5.86707 0.85616 2.87274 0.916889 2.83137 1.14982C1.39165 1.73899 0.0528053 4.18068 0.00236619 3.19796C-0.0790095 1.61248 1.96549 0.640397 1.98115 0.527624Z" fill="#140000" stroke="black" stroke-width="0.1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_185_8588" x1="52.1933" y1="18.3582" x2="49.6222" y2="41.0994" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ECB847"/>
+<stop offset="1" stop-color="#D85728"/>
+</linearGradient>
+<linearGradient id="paint1_linear_185_8588" x1="16.3051" y1="7.46617" x2="12.7992" y2="-0.00915936" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ED9C9A"/>
+<stop offset="1" stop-color="#D85728"/>
+</linearGradient>
+<linearGradient id="paint2_linear_185_8588" x1="0" y1="4.5" x2="46" y2="4.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ED9C9A"/>
+<stop offset="1" stop-color="#D85728"/>
+</linearGradient>
+</defs>
+</svg>

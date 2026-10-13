@@ -1,0 +1,128 @@
+<svg width="122" height="45" viewBox="0 0 122 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg { overflow: visible; }
+@keyframes kf_Vector_411_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(33px) translateY(11px) translate(23px, 4.5px) scaleX(1) scaleY(1) translate(-23px, -4.5px);
+  }
+  49.5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(33px) translateY(11px) translate(23px, 4.5px) scaleX(0.85) scaleY(1) translate(-23px, -4.5px);
+  }
+  100% {
+    transform: translateX(33px) translateY(11px) translate(23px, 4.5px) scaleX(1) scaleY(1) translate(-23px, -4.5px);
+  }
+}
+#Vector_411 {
+  transform-origin: 0 0;
+  animation: kf_Vector_411_transform_0 2s linear infinite;
+}
+@keyframes kf_Vector_414_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(55px) translateY(31px) translate(13px, 6.5px) scaleX(1) scaleY(1) translate(-13px, -6.5px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(55px) translateY(31px) translate(13px, 6.5px) scaleX(1) scaleY(0.85) translate(-13px, -6.5px);
+  }
+  99.9% {
+    transform: translateX(55px) translateY(31px) translate(13px, 6.5px) scaleX(1) scaleY(1) translate(-13px, -6.5px);
+  }
+  100% {
+    transform: translateX(55px) translateY(31px) translate(13px, 6.5px) scaleX(1) scaleY(1) translate(-13px, -6.5px);
+  }
+}
+#Vector_414 {
+  transform-origin: 0 0;
+  animation: kf_Vector_414_transform_0 2s linear infinite;
+}
+@keyframes kf_venstre___je_transform_0 {
+  0% {
+    transform: translateX(0.646px) translateY(32.434px) translate(2.754px, -4.317px) scaleX(1) scaleY(1) translate(-2.754px, 4.317px) rotate(-0.075rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  32.7% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(0.646px) translateY(32.434px) translate(2.754px, -4.317px) scaleX(1) scaleY(1) translate(-2.754px, 4.317px) rotate(-0.075rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  39.3% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(0.646px) translateY(32.434px) translate(2.754px, -4.317px) scaleX(1) scaleY(0) translate(-2.754px, 4.317px) rotate(-0.075rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  44.8% {
+    transform: translateX(0.646px) translateY(32.434px) translate(2.754px, -4.317px) scaleX(1) scaleY(1) translate(-2.754px, 4.317px) rotate(-0.075rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+  100% {
+    transform: translateX(0.646px) translateY(32.434px) translate(2.754px, -4.317px) scaleX(1) scaleY(1) translate(-2.754px, 4.317px) rotate(-0.075rad) scaleX(1) scaleY(-1) skewX(-0.003975rad);
+  }
+}
+#venstre___je {
+  transform-origin: 0 0;
+  animation: kf_venstre___je_transform_0 2s linear infinite;
+}
+@keyframes kf_h__jre___je_transform_0 {
+  0% {
+    transform: translateX(13.135px) translateY(32.088px) translate(-3.959px, -4.297px) scaleX(1) scaleY(1) translate(3.959px, 4.297px) rotate(3.067rad) scaleX(1) scaleY(1) skewX(0.003975rad);
+  }
+  32.66% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(13.135px) translateY(32.088px) translate(-3.959px, -4.297px) scaleX(1) scaleY(1) translate(3.959px, 4.297px) rotate(3.067rad) scaleX(1) scaleY(1) skewX(0.003975rad);
+  }
+  39.32% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(13.135px) translateY(32.088px) translate(-3.959px, -4.297px) scaleX(1) scaleY(0) translate(3.959px, 4.297px) rotate(3.067rad) scaleX(1) scaleY(1) skewX(0.003975rad);
+  }
+  44.8% {
+    transform: translateX(13.135px) translateY(32.088px) translate(-3.959px, -4.297px) scaleX(1) scaleY(1) translate(3.959px, 4.297px) rotate(3.067rad) scaleX(1) scaleY(1) skewX(0.003975rad);
+  }
+  100% {
+    transform: translateX(13.135px) translateY(32.088px) translate(-3.959px, -4.297px) scaleX(1) scaleY(1) translate(3.959px, 4.297px) rotate(3.067rad) scaleX(1) scaleY(1) skewX(0.003975rad);
+  }
+}
+#h__jre___je {
+  transform-origin: 0 0;
+  animation: kf_h__jre___je_transform_0 2s linear infinite;
+}
+</style>
+<g id="lilla_lille_fisk">
+<path id="Vector_411" transform="translate(32.9999 11)" d="M46 4.50223C28.4165 -1.18953 18.6453 -1.13827 0 2.71842C11.5988 4.09242 33.2126 9.95568 36.635 8.86574C40.0574 7.77579 45.1801 6.74155 46 4.50223Z" fill="url(#paint0_linear_185_8602)" stroke="black"/>
+<path id="Vector_412" transform="translate(1.99991)" d="M119 41.4128C89.1404 36.8881 87.7856 27.4737 109.268 0C93.9068 16.4009 80.9362 19.9718 69.0111 19.2644C55.6475 18.4716 43.5968 12.3061 30.9665 12.8026C21.2712 13.1837 11.2344 17.4904 0 31.1664V34.5818C16.3998 44.3282 50.4312 42.2667 53.5279 40.5589C58.905 34.8753 64.1023 32.2006 69.0111 31.5933C81.0641 30.102 93.6025 40.0877 119 41.4128Z" fill="url(#paint1_linear_185_8602)" stroke="black"/>
+<path id="Vector_413" transform="translate(24.9999 31)" d="M0 1.08737C9.37739 -0.210854 14.3722 -0.242642 23 0.44657C19.6063 3.62573 14.6974 3.83263 0 1.08737Z" fill="#B64681" stroke="black"/>
+<path id="Vector_414" transform="translate(54.9999 31)" d="M26 10.4673C14.6785 14.1343 9.09071 13.6837 0 9.99149C4.99227 4.15329 8.18565 1.76901 14.9831 0C21.9275 1.85894 24.4009 4.09914 26 10.4673Z" fill="url(#paint2_linear_185_8602)" stroke="black"/>
+<g id="venstre___je" transform="matrix(0.997196 -0.0748393 -0.0788022 -0.99689 0.64591 32.4336)">
+<path id="Ellipse_5014" transform="matrix(0.909889 0.414852 -0.299348 0.954144 1.9706 1.39848e-05)" d="M2.30859 0.25C2.84231 0.25 3.35093 0.558073 3.73633 1.10742C4.12115 1.65605 4.3671 2.4274 4.36719 3.29102C4.36719 4.15482 4.12122 4.92686 3.73633 5.47559C3.35093 6.0249 2.8423 6.33301 2.30859 6.33301C1.7749 6.33297 1.26624 6.02493 0.880859 5.47559C0.495972 4.92686 0.25 4.15482 0.25 3.29102C0.250085 2.4274 0.496038 1.65605 0.880859 1.10742C1.26624 0.558048 1.77488 0.250039 2.30859 0.25Z" fill="white" stroke="black" stroke-width="0.5"/>
+<ellipse id="Ellipse_5015" transform="matrix(0.905388 0.424586 -0.307099 0.951677 2.74652 1.94965)" cx="1.49648" cy="2.46014" rx="1.49648" ry="2.46014" fill="black"/>
+<ellipse id="Ellipse_5016" transform="matrix(0.978937 0.204163 -0.142054 0.989859 3.36286 2.94619)" cx="0.586272" cy="0.802562" rx="0.586272" ry="0.802562" fill="#FFFFFE"/>
+<ellipse id="Ellipse_5017" transform="matrix(0.978937 0.204163 -0.142054 0.989859 2.94208 5.73956)" cx="0.1185" cy="0.132785" rx="0.1185" ry="0.132785" fill="#FFFFFE"/>
+</g>
+<g id="h__jre___je" transform="matrix(-0.997196 0.0748393 -0.0788022 -0.99689 13.1349 32.0879)">
+<path id="Ellipse_5014_2" transform="matrix(0.916675 0.399634 -0.311759 0.950161 2.30377 -4.5651e-05)" d="M2.67871 0.25C3.31841 0.25 3.92027 0.60689 4.37109 1.22852C4.82166 1.84991 5.10831 2.72116 5.1084 3.69434C5.1084 4.66751 4.82159 5.53869 4.37109 6.16016C3.92025 6.78193 3.31849 7.13965 2.67871 7.13965C2.03906 7.13952 1.43807 6.78182 0.987305 6.16016C0.536749 5.53868 0.25 4.66759 0.25 3.69434C0.250087 2.72116 0.536734 1.84991 0.987305 1.22852C1.43804 0.607088 2.03919 0.250126 2.67871 0.25Z" fill="white" stroke="black" stroke-width="0.5"/>
+<ellipse id="Ellipse_5015_2" transform="matrix(0.912464 0.409156 -0.319761 0.947498 3.21079 2.1795)" cx="1.73592" cy="2.7622" rx="1.73592" ry="2.7622" fill="black"/>
+<ellipse id="Ellipse_5016_2" transform="matrix(0.98069 0.195567 -0.148423 0.988924 3.93141 3.29347)" cx="0.684169" cy="0.89799" rx="0.684169" ry="0.89799" fill="#FFFFFE"/>
+<ellipse id="Ellipse_5017_2" transform="matrix(0.98069 0.195567 -0.148423 0.988924 3.43946 6.41602)" cx="0.138287" cy="0.148573" rx="0.138287" ry="0.148573" fill="#FFFFFE"/>
+</g>
+<g id="mund" transform="matrix(0.991194 -0.132416 0.139337 0.990245 5.95255 31.3149)">
+<g id="Vector_274">
+<path d="M9.79052 1.54263L9.6213 1.74522C9.308 9.00318 3.12982 7.41381 0.874663 2.03609C4.25571 3.09637 7.73195 3.10684 9.79052 1.54263L11.0791 0C10.7623 0.626071 10.324 1.13724 9.79052 1.54263Z" id="Vector_274_bg_0" fill="#FBB1B1">
+</path>
+<path d="M1.74933 0.872612L0 2.61784L0.874663 2.03609M0.874663 2.03609C5.13197 3.37116 9.54022 3.04175 11.0791 0L9.6213 1.74522C9.308 9.00318 3.12982 7.41381 0.874663 2.03609Z" stroke="black" stroke-width="0.5"/>
+</g>
+<path id="Vector_277" transform="translate(3.69298 5.16582)" d="M2.21581 5.60651e-05C1.36408 -0.00525748 0 0.369026 0 0.369026C2.24094 2.32862 4.41804 1.09837 4.43163 0.369026C4.42078 0.258823 3.06755 0.00536961 2.21581 5.60651e-05Z" fill="#EC7274" stroke="black" stroke-width="0.1"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_185_8602" x1="0" y1="4.5" x2="46" y2="4.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A43AD3"/>
+<stop offset="1" stop-color="#D35536"/>
+</linearGradient>
+<linearGradient id="paint1_linear_185_8602" x1="51.7584" y1="17.9313" x2="49.2839" y2="40.152" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6039CA"/>
+<stop offset="1" stop-color="#8D3ADF"/>
+</linearGradient>
+<linearGradient id="paint2_linear_185_8602" x1="8.9375" y1="3.25" x2="24.2095" y2="11.8511" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A038E0"/>
+<stop offset="1" stop-color="#D85728"/>
+</linearGradient>
+</defs>
+</svg>
