@@ -25,9 +25,61 @@
     pointer-events: none;
 }
 
+.fisk1 {
+    top: 70%;
+    left: 65%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+
+.fisk2 {
+    top: 70%;
+    left: 30%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+
+.fisk3 {
+    top: 50%;
+    left: 20%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+
 .fisk4 {
     top: 60%;
     left: 65%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+
+.fisk5 {
+    top: 20%;
+    left: 20%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+.fisk6 {
+    top: 20%;
+    left: 40%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+}
+.fisk7 {
+    top: 30%;
+    left: 30%; 
     position: absolute;
     width: 12%;
     height: auto;
