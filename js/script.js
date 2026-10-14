@@ -95,7 +95,7 @@ fisk.forEach(function(fiskObj) {
     const fishElement = document.getElementById(fiskObj.id);
 
     fishElement.addEventListener("click", function() {
-    
+      console.log("Du klikkede på:", fiskObj.name);
     fishInfo.innerHTML = `
     <strong>${fiskObj.name}</strong> <br>
     Farve:${fiskObj.color} <br>
@@ -103,8 +103,10 @@ fisk.forEach(function(fiskObj) {
     Spiser:${fiskObj.food} <br>
     Levetid:${fiskObj.lifespan} <br>
 `
+    fishInfo.classList.add("show");
       
     });
+     
 });
 
 

@@ -267,3 +267,372 @@ animation: fisk6 11s linear infinite;
   }
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Hele akvariet */
+#scene {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* Info-boks */
+#fishInfo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    background-color: rgba(24, 116, 208, 0.92);
+    color: white;
+
+    padding: 16px 20px;
+    border-radius: 14px;
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    min-width: 220px;
+    max-width: 320px;
+
+    z-index: 1000;
+}
+
+/* Skjul boksen, når den er tom */
+/* #fishInfo:empty {
+    display: none;
+} */
+
+/* Baggrund */
+.bg {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("../img/baggrund1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Fisk 1 */
+.fisk1 {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk1 8s linear infinite;
+}
+
+@keyframes fisk1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-130vw);
+    }
+}
+
+/* Fisk 2 */
+.fisk2 {
+    position: absolute;
+    top: 70%;
+    right: 100%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk2 15s linear infinite;
+}
+
+@keyframes fisk2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(130vw);
+    }
+}
+
+/* Fisk 3 */
+.fisk3 {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk3 11s linear infinite;
+}
+
+@keyframes fisk3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(130vw);
+    }
+}
+
+/* Fisk 4 */
+.fisk4 {
+    position: absolute;
+    top: 60%;
+    right: 100%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk4 8s linear infinite;
+}
+
+@keyframes fisk4 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(130vw);
+    }
+}
+
+/* Fisk 5 */
+.fisk5 {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk5 10s linear infinite;
+}
+
+@keyframes fisk5 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-130vw);
+    }
+}
+
+/* Fisk 6 */
+.fisk6 {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk6 11s linear infinite;
+}
+
+@keyframes fisk6 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-130vw);
+    }
+}
+
+/* Fisk 7 */
+.fisk7 {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    width: 12%;
+    height: auto;
+    z-index: 1;
+
+    animation: fisk7 14s linear infinite;
+}
+
+@keyframes fisk7 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-130vw);
+    }
+}
+
+/* Alger */
+.alger {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 19%;
+    height: auto;
+    z-index: 2;
+}
+
+/* Orange koral */
+.orange-koral {
+    position: absolute;
+    top: 78%;
+    left: 14%;
+    width: 13%;
+    height: auto;
+    z-index: 2;
+}
+
+/* Pink koral */
+.pink-koral {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+}
+
+/* Boble 1 */
+.bubble1 {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+
+    width: 15%;
+    opacity: 0;
+
+    z-index: 2;
+
+    animation: floatUp1 15s linear infinite;
+}
+
+/* Boble 2 */
+.bubble2 {
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+
+    width: 10%;
+    opacity: 0;
+
+    z-index: 2;
+
+    animation: floatUp1 10s linear infinite;
+}
+
+/* Boble 3 */
+.bubble3 {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+
+    width: 20%;
+    opacity: 0;
+
+    z-index: 2;
+
+    animation: floatUp1 12s linear infinite;
+}
+
+@keyframes floatUp1 {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-20px, -120vh);
+        opacity: 0;
+    }
+}
+
+/* Dynamiske bobler fra JavaScript */
+.bubble {
+    position: absolute;
+    bottom: -40px;
+
+    border-radius: 50%;
+
+    background: rgba(173, 226, 255, 0.45);
+    border: 1px solid white;
+
+    z-index: 2;
+
+    animation: floatUp 6s linear forwards;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(30px, -50vh);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-20px, -120vh);
+        opacity: 0;
+    }
+}
+
+
+
+#fishInfo {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    width: 280px;
+    padding: 20px;
+
+    background-color: rgba(24, 116, 208, 0.92);
+    color: white;
+
+    border-radius: 18px;
+
+    font-size: 18px;
+    line-height: 1.6;
+
+    z-index: 9999;
+
+    opacity: 0;
+    transform: translateY(20px);
+
+    transition: 0.3s ease;
+
+    pointer-events: none;
+}
+
+#fishInfo.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#fishInfo strong {
+    font-size: 24px;
+}
