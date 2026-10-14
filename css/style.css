@@ -32,7 +32,14 @@
     width: 12%;
     height: auto;
     z-index: 1;
+     animation: fisk1 18s linear infinite;
 }
+
+@keyframes fisk1 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw) ; }
+}
+
 
 .fisk2 {
     top: 70%;
