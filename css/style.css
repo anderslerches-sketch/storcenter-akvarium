@@ -156,6 +156,67 @@ animation: fisk6 11s linear infinite;
     z-index: 2;
 }
 
+/* Boble pop */
+.bubble1 {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    opacity: 0;
+    width: 15%;
+    animation: floatUp1 15s linear infinite;
+
+     z-index: 2;
+}
+
+@keyframes floatUp1 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-20px, -120vh);
+    opacity: 100;
+  }
+}
+
+.bubble2 {
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    width: 10%;
+    animation: floatUp1 10s linear infinite;
+}
+
+@keyframes floatUp1 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-20px, -120vh);
+    opacity: 100;
+  }
+}
+.bubble3 {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+    width: 20%;
+    animation: floatUp1 12s linear infinite;
+}
+
+@keyframes floatUp1 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-20px, -120vh);
+    opacity: 100%;
+  }
+}
+
+
 /* Bobler */
 .bubble {
   position: absolute;
