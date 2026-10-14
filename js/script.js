@@ -37,7 +37,7 @@ const fisk = [
 
 
        {
-        id: "iidSortbaandet-kirurg",
+        id: "idSortbaandet-kirurg",
         name: "Sortbaandet kirug",
         color: "soelv, sort og gulgroen",
         size: "22-26 cm",
@@ -46,6 +46,27 @@ const fisk = [
         sound: "hvid-sort-fisk.wav",
         svg: "img/sortbaandet-kirurg.svg",
 
+
+    },
+
+     {
+        id: "idLilla-lille-antia",
+        name: "Lilla Anthias",
+        color: "lilla",
+        size: "ca. 8-15 cm",
+        food: "plankton og smaa krebsdyr",
+        lifespan: "5-7 aar",
+        svg: "img/lilla-lille-antias.svg",
+    },
+
+    {
+        id: "idOrange-lille-antias",
+        name: "Orange Anthias",
+        color: "lilla",
+        size: "ca. 8-15 cm",
+        food: "plankton og smaa krebsdyr",
+        lifespan: "5-7 aar",
+        svg: "img/lilla-lille-antias.svg",
 
     },
 
@@ -58,26 +79,10 @@ const fisk = [
         lifespan: "5-7 aar",
         sound: "kommer",
         svg: "img/rosa-lille-antias.svg",
-    },
-
-    {
-        id: "idLilla-lille-antia",
-        name: "Lilla Anthias",
-        color: "lilla",
-        size: "ca. 8-15 cm",
-        food: "plankton og smaa krebsdyr",
-        lifespan: "5-7 aar",
-        svg: "img/lilla-lille-antias.svg",
-
-        id: "idOrange-lille-antias",
-        name: "Orange Anthias",
-        color: "lilla",
-        size: "ca. 8-15 cm",
-        food: "plankton og smaa krebsdyr",
-        lifespan: "5-7 aar",
-        svg: "img/lilla-lille-antias.svg",
-
     }
+
+    
+
 
 ]
 console.log(fisk)
@@ -86,17 +91,17 @@ console.log(fisk)
 
 const fishInfo = document.getElementById("fishInfo");
 
-fisk.forEach(function(fish) {
-    const fishElement = document.getElementById(fish.id);
+fisk.forEach(function(fiskObj) {
+    const fishElement = document.getElementById(fiskObj.id);
 
     fishElement.addEventListener("click", function() {
     
     fishInfo.innerHTML = `
-    <strong>${fish.name}</strong> <br>
-    Farve:${fish.color} <br>
-    Størrelse:${fish.size} <br>
-    Spiser:${fish.food} <br>
-    Levetid:${fish.lifespan} <br>
+    <strong>${fiskObj.name}</strong> <br>
+    Farve:${fiskObj.color} <br>
+    Størrelse:${fiskObj.size} <br>
+    Spiser:${fiskObj.food} <br>
+    Levetid:${fiskObj.lifespan} <br>
 `
       
     });
