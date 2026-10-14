@@ -37,7 +37,7 @@ const fisk = [
 
 
        {
-        id: "idSortbaandetkirurg",
+        id: "iidSortbaandet-kirurg",
         name: "Sortbaandet kirug",
         color: "soelv, sort og gulgroen",
         size: "22-26 cm",
@@ -50,7 +50,7 @@ const fisk = [
     },
 
     {
-        id: "idRosaAntias",
+        id: "idRosa-lille-antias",
         name: "Rosa Anthias",
         color: "rosa",
         size: "ca. 8-15 cm",
@@ -61,22 +61,62 @@ const fisk = [
     },
 
     {
-        id: "idLillaAntias",
+        id: "idLilla-lille-antia",
         name: "Lilla Anthias",
         color: "lilla",
         size: "ca. 8-15 cm",
         food: "plankton og smaa krebsdyr",
         lifespan: "5-7 aar",
         svg: "img/lilla-lille-antias.svg",
-    }
 
+        id: "idOrange-lille-antias",
+        name: "Orange Anthias",
+        color: "lilla",
+        size: "ca. 8-15 cm",
+        food: "plankton og smaa krebsdyr",
+        lifespan: "5-7 aar",
+        svg: "img/lilla-lille-antias.svg",
+
+    }
 
 ]
 console.log(fisk)
 
 
 
-const bgMusic = document.getElementById("bgMusic");
+const fishInfo = document.getElementById("fishInfo");
+
+fisk.forEach(function(fish) {
+    const fishElement = document.getElementById(fish.id);
+
+    fishElement.addEventListener("click", function() {
+    
+    fishInfo.innerHTML = `
+    <strong>${fish.name}</strong> <br>
+    Farve:${fish.color} <br>
+    Størrelse:${fish.size} <br>
+    Spiser:${fish.food} <br>
+    Levetid:${fish.lifespan} <br>
+`
+      
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 document.addEventListener("click", function () {
     bgMusic.play();
@@ -110,7 +150,8 @@ function createBubble() {
 setInterval(createBubble, 300);
 
 
-    
+
+
 
 
     
