@@ -1,4 +1,5 @@
 "use strict";
+let klovneLyd;
 
 const fisk = [
     {
@@ -35,7 +36,6 @@ const fisk = [
         svg: "img/dvaergkejser.svg",
     },
 
-
        {
         id: "idSortbaandet-kirurg",
         name: "Sortbaandet kirug",
@@ -45,7 +45,6 @@ const fisk = [
         lifespan:"op til 7 aar ",
         sound: "hvid-sort-fisk.wav",
         svg: "img/sortbaandet-kirurg.svg",
-
 
     },
 
@@ -88,14 +87,19 @@ const fisk = [
 console.log(fisk)
 
 
-
 const fishInfo = document.getElementById("fishInfo");
 
 fisk.forEach(function(fiskObj) {
     const fishElement = document.getElementById(fiskObj.id);
 
     fishElement.addEventListener("click", function() {
-      console.log("Du klikkede på:", fiskObj.name);
+      console.log("Du klikkede på:", fiskObj.name)
+     if (fiskObj.id === "idKlovnefisk") {
+    document.getElementById("overlayKlovnefisk").style.display = "flex";
+
+    klovneLyd = new Audio("sound/klovnfisk.wav");
+    klovneLyd.play();
+};
     fishInfo.innerHTML = `
     <strong>${fiskObj.name}</strong> <br>
     Farve:${fiskObj.color} <br>
@@ -109,6 +113,14 @@ fisk.forEach(function(fiskObj) {
      
 });
 
+function lukOverlay() {
+    document.getElementById("overlayKlovnefisk").style.display = "none";
+
+    if (klovneLyd) {
+        klovneLyd.pause();
+        klovneLyd.currentTime = 0;
+    }
+}
 
 
 // stemme til pincetfisk (fisk2)
