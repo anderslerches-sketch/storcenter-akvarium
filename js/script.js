@@ -83,6 +83,31 @@ document.addEventListener("click", function () {
 });
 
 
+const bg = document.getElementById("bg");
+
+function createBubble() {
+  const bubble = document.createElement("div");
+
+  const size = Math.random() * 30 + 10;
+
+  bubble.classList.add("bubble");
+
+  bubble.style.width = size + "px";
+  bubble.style.height = size + "px";
+
+  bubble.style.left = Math.random() * 100 + "%";
+
+  bubble.style.animationDuration =
+    (Math.random() * 4 + 4) + "s";
+
+  bg.appendChild(bubble);
+
+  bubble.addEventListener("animationend", () => {
+    bubble.remove();
+  });
+}
+
+setInterval(createBubble, 300);
 
 
     
