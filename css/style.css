@@ -48,6 +48,11 @@
     width: 12%;
     height: auto;
     z-index: 1;
+    animation: fisk2 18s linear infinite;
+}
+@keyframes fisk2 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(130vw) ; }
 }
 
 
@@ -58,7 +63,13 @@
     width: 12%;
     height: auto;
     z-index: 1;
+    animation: fisk3 18s linear infinite;
 }
+@keyframes fisk3 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(130vw) ; }
+}
+
 
 .fisk4 {
     top: 60%;
@@ -67,7 +78,13 @@
     width: 12%;
     height: auto;
     z-index: 1;
+    animation: fisk4 18s linear infinite;
 }
+@keyframes fisk4 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(130vw) ; }
+}
+
 
 .fisk5 {
     top: 20%;
@@ -76,7 +93,13 @@
     width: 12%;
     height: auto;
     z-index: 1;
+    animation: fisk5 18s linear infinite;
 }
+@keyframes fisk5 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw) ; }
+}
+
 .fisk6 {
     top: 20%;
     left: 40%; 
@@ -84,7 +107,13 @@
     width: 12%;
     height: auto;
     z-index: 1;
+animation: fisk6 18s linear infinite;
 }
+@keyframes fisk6 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw) ; }
+}
+
 .fisk7 {
     top: 30%;
     left: 30%; 
@@ -92,7 +121,13 @@
     width: 12%;
     height: auto;
     z-index: 1;
+    animation: fisk7 18s linear infinite;
 }
+@keyframes fisk7 {
+   0%   { transform: translateX(0); }
+   100% { transform: translateX(-130vw) ; }
+}
+
 
 .alger {
     position: absolute;
