@@ -74,6 +74,8 @@ const fisk = [
 ]
 console.log(fisk)
 
+
+
 const bgMusic = document.getElementById("bgMusic");
 
 document.addEventListener("click", function () {
