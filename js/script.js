@@ -8,7 +8,7 @@ const fisk = [
         size: "10-12cm",
         food: "smaa krebsdyr,plankton/alger",
         lifespan:"6-10aar",
-        sound: "sound/nemo.wav",
+        sound: "klovnfisk.wav",
         svg: "img/klovnefisk.svg",
     },
 
@@ -111,16 +111,58 @@ fisk.forEach(function(fiskObj) {
 
 
 
+// stemme til pincetfisk (fisk2)
+const pincetfisk = document.getElementById("idPincetfisk");
+
+pincetfisk.addEventListener("click", function() {
+    const audio = new Audio("sound/pincetfisk.wav");
+    audio.play();
+});
 
 
+// stemme til dværgkejser (fisk3)
+const dvaergkejser = document.getElementById("idDvaergkejser");
+
+dvaergkejser.addEventListener("click", function() {
+    const audio = new Audio("sound/dværgkejser.wav");
+    audio.play();
+});
 
 
+// stemme til dværgkejser (fisk4)
+const sortbaandet = document.getElementById("idSortbaandet-kirurg");
+
+sortbaandet.addEventListener("click", function() {
+    const audio = new Audio("sound/sortbaandet.fisk.wav");
+    audio.play();
+});
 
 
+// stemme til lilla-lille-antia (fisk5)
+const lilla = document.getElementById("idLilla-lille-antia");
+
+lilla.addEventListener("click", function() {
+    const audio = new Audio("sound/lilla.fisk.wav");
+    audio.play();
+});
 
 
+// stemme til orange-lille-antias (fisk6)
+const orange = document.getElementById("idOrange-lille-antias");
+
+orange.addEventListener("click", function() {
+    const audio = new Audio("sound/lille.orange.fisk.wav");
+    audio.play();
+});
 
 
+// stemme til rosa-lille-antias (fisk7)
+const rosa = document.getElementById("idRosa-lille-antias");
+
+rosa.addEventListener("click", function() {
+    const audio = new Audio("sound/rosa.fisk.wav");
+    audio.play();
+});
 
 
 
