@@ -1,5 +1,6 @@
 "use strict";
 let klovneLyd;
+let aktivLyd;
 
 const fisk = [
     {
@@ -94,6 +95,7 @@ fisk.forEach(function(fiskObj) {
 
     fishElement.addEventListener("click", function() {
       console.log("Du klikkede på:", fiskObj.name)
+     
      if (fiskObj.id === "idKlovnefisk") {
     document.getElementById("overlayKlovnefisk").style.display = "flex";
 
@@ -127,8 +129,13 @@ function lukOverlay() {
 const pincetfisk = document.getElementById("idPincetfisk");
 
 pincetfisk.addEventListener("click", function() {
-    const audio = new Audio("sound/pincetfisk.wav");
-    audio.play();
+    if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+
+    aktivLyd = new Audio("sound/pincetfisk.wav");
+    aktivLyd.play();
 });
 
 
@@ -136,8 +143,12 @@ pincetfisk.addEventListener("click", function() {
 const dvaergkejser = document.getElementById("idDvaergkejser");
 
 dvaergkejser.addEventListener("click", function() {
-    const audio = new Audio("sound/dværgkejser.wav");
-    audio.play();
+    if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+    aktivLyd = new Audio("sound/dværgkejser.wav");
+    aktivLyd.play();
 });
 
 
@@ -145,8 +156,12 @@ dvaergkejser.addEventListener("click", function() {
 const sortbaandet = document.getElementById("idSortbaandet-kirurg");
 
 sortbaandet.addEventListener("click", function() {
-    const audio = new Audio("sound/sortbaandet.fisk.wav");
-    audio.play();
+    if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+    aktivLyd = new Audio("sound/sortbaandet.fisk.wav");
+    aktivLyd.play();
 });
 
 
@@ -154,8 +169,12 @@ sortbaandet.addEventListener("click", function() {
 const lilla = document.getElementById("idLilla-lille-antia");
 
 lilla.addEventListener("click", function() {
-    const audio = new Audio("sound/lilla.fisk.wav");
-    audio.play();
+     if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+    aktivLyd = new Audio("sound/lilla.fisk.wav");
+    aktivLyd.play();
 });
 
 
@@ -163,8 +182,12 @@ lilla.addEventListener("click", function() {
 const orange = document.getElementById("idOrange-lille-antias");
 
 orange.addEventListener("click", function() {
-    const audio = new Audio("sound/lille.orange.fisk.wav");
-    audio.play();
+    if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+    aktivLyd = new Audio("sound/lille.orange.fisk.wav");
+    aktivLyd.play();
 });
 
 
@@ -172,8 +195,12 @@ orange.addEventListener("click", function() {
 const rosa = document.getElementById("idRosa-lille-antias");
 
 rosa.addEventListener("click", function() {
-    const audio = new Audio("sound/rosa.fisk.wav");
-    audio.play();
+     if (aktivLyd) {
+        aktivLyd.pause();
+        aktivLyd.currentTime = 0;
+    }
+    aktivLyd = new Audio("sound/rosa.fisk.wav");
+    aktivLyd.play();
 });
 
 
