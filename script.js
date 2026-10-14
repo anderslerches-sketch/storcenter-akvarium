@@ -8,7 +8,7 @@ const fisk = [
         size: "10-12cm",
         food: "smaa krebsdyr,plankton/alger",
         lifespan:"6-10aar",
-        sound: "kommer",
+        sound: "sound/nemo.wav",
         svg: "img/klovnefisk.svg",
     },
 
@@ -43,7 +43,7 @@ const fisk = [
         size: "22-26 cm",
         food: "alger og plantefoede",
         lifespan:"op til 7 aar ",
-        sound: "kommer",
+        sound: "hvid-sort-fisk.wav",
         svg: "img/sortbaandet-kirurg.svg",
 
 
@@ -67,14 +67,14 @@ const fisk = [
         size: "ca. 8-15 cm",
         food: "plankton og smaa krebsdyr",
         lifespan: "5-7 aar",
-        sound: "kommer",
         svg: "img/lilla-lille-antias.svg",
     }
 
 
 ]
-
 console.log(fisk)
+
+
 
 
 

@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Hele akvariet */
 #scene {
     position: relative;
     width: 100%;
@@ -13,43 +12,24 @@
     isolation: isolate;
 }
 
-/* Den animerede baggrund */
 .bg {
     position: absolute;
     inset: 0;
 
-    background-image: url("../img/baggrund.svg");
+    background-image: url("../img/baggrund1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    z-index: -1;
+    z-index: 0;
     pointer-events: none;
 }
 
-/* Individuel placering og svømmehastighed af fisk */
 .fisk4 {
- top: 60%;
- left: 65%; 
- position: absolute;
- width: 12%;
- height: auto;
- z-index: 1;
+    top: 60%;
+    left: 65%; 
+    position: absolute;
+    width: 12%;
+    height: auto;
+    z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
