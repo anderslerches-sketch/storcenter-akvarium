@@ -22,7 +22,7 @@ const fisk = [
         size: "18-22 cm",
         food: "smaa krebsdyr, fiskeaeg og smaa havdyr",
         lifespan:"op til 18 aar ",
-        sound: "kommer",
+        sound: "pincetfisk.wav",
         svg: "img/pincetfisk.svg",
     },
 
@@ -33,7 +33,7 @@ const fisk = [
         size: "12-15 cm",
         food: "smaa krebsdyr og alger",
         lifespan:"op til 7 aar ",
-        sound: "kommer",
+        sound: "dværgkejser.wav",
         svg: "img/dvaergkejser.svg",
     },
 
@@ -44,7 +44,7 @@ const fisk = [
         size: "22-26 cm",
         food: "alger og plantefoede",
         lifespan:"op til 7 aar ",
-        sound: "hvid-sort-fisk.wav",
+        sound: "sortbaandet.fisk.wav",
         svg: "img/sortbaandet-kirurg.svg",
 
     },
@@ -56,6 +56,7 @@ const fisk = [
         size: "ca. 8-15 cm",
         food: "plankton og smaa krebsdyr",
         lifespan: "5-7 aar",
+        sound: "lilla.fisk.wav",
         svg: "img/lilla-lille-antias.svg",
     },
 
@@ -66,6 +67,7 @@ const fisk = [
         size: "ca. 8-15 cm",
         food: "plankton og smaa krebsdyr",
         lifespan: "5-7 aar",
+        sound: "lille.orange.fisk.wav",
         svg: "img/lilla-lille-antias.svg",
 
     },
@@ -77,7 +79,7 @@ const fisk = [
         size: "ca. 8-15 cm",
         food: "plankton og smaa krebsdyr",
         lifespan: "5-7 aar",
-        sound: "kommer",
+        sound: "rosa.fisk.wav",
         svg: "img/rosa-lille-antias.svg",
     }
 
