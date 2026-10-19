@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
 <audio id="bgMusic" autoplay loop>
     <source src="sound/bg.sound.wav" type="audio/wav">
 </audio>
@@ -16,10 +17,7 @@
     <div class="bg" id="bg"></div>
     <div id="fishInfo"></div>
 
-    <!-- Overlay til klovnefisken -->
-    <div id="overlayKlovnefisk" onclick="lukOverlay()">
-        <img src="img/scene2.find-mig.png" alt="Klovnefisk">
-    </div>
+   
     <div> 
         <!-- Fiskene svømmer foran baggrunden -->
         <img src="img/Klovnefisk.svg" id="idKlovnefisk" class="fisk1" alt="Klovnefisk">
@@ -39,6 +37,10 @@
         <img src="img/bobble.svg" id="idbobble3" class="bubble3" alt="Boble">
     </div>
 </main>
+  <!-- Overlay til klovnefisken -->
+    <div id="overlayKlovnefisk" onclick="lukOverlay()">
+        <img src="img/scene2.find-mig.png" alt="Klovnefisk">
+    </div>
 <script src="js/script.js"></script>
 </body>
 </html>
